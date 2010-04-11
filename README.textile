@@ -1,0 +1,25 @@
+h1. Uki Reader
+
+Just a spike playing around with "Uki":http://github.com/voloko/uki, based on the "Uki Mail.app":http://github.com/voloko/uki_mail_app demo. The goal is to build something like "Helvetireader":http://helvetireader.com but based on Uki. If you want join me playing just give me a ping. I'll add you as a collaborator.
+
+h2. Installation
+
+Add "this script":http://github.com/svenfuchs/uki_reader/blob/master/hook.js as a Firefox "Greasemonkey":https://addons.mozilla.org/en-US/firefox/addon/748 script for http://www.google.com/reader/*
+
+It should be easy to do a Google Chrome extension but I haven't tried, yet.
+
+h2. Usage
+
+Go to "http://www.google.com/reader":http://www.google.com/reader. You need to log in if you aren't.
+
+You should see Google Reader loading. It might take a second for the Greasemonkey hook to load the Uki Reader script from Github. 
+
+As soon as it kicks in you should see something like this:
+
+!http://img.skitch.com/20100411-8smau61br1qbratw82tpm8imd4.jpg!
+
+h2. Status
+
+So far it only does very basic reading. I.e. it loads your feeds from the Google Reader API and displays them in the left feeds pane. When you click on a feed it will load the posts and list them in the right/top posts table. It also can display posts in the right/bottom post details pane.
+
+It can't properly display unread counts or even post status information back to Google.
